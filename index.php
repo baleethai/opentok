@@ -22,9 +22,9 @@
 <body>
 	<div>
 		<ul>
-			<li><a href="<?php echo "https://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>?room=ROOM1">Room 1</a></li>
-			<li><a href="<?php echo "https://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>?room=ROOM2">Room 2</a></li>
-			<li><a href="<?php echo "https://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>?room=ROOM3">Room 3</a></li>
+			<li><a href="?room=ROOM1">Room 1</a></li>
+			<li><a href="?room=ROOM2">Room 2</a></li>
+			<li><a href="?room=ROOM3">Room 3</a></li>
 		</ul>
 	</div>
 	<div id="otEmbedContainer" style="width:800px; height:640px"></div>
